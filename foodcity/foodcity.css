@@ -1,0 +1,22 @@
+*{
+    background-color: #c70039;
+    font-family: 'Poppins';
+    /* font-family: 'Montserrat', sans-serif; */
+font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-top: 45dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food{
+    font-size: 33px;
+    font-weight: 600;
+    color: #f94c10;
+}
+span{
+    font-weight: 600;
+    color: #f8de22;
+    font-size: 33px;
+}

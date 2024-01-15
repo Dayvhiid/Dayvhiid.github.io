@@ -1,0 +1,29 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.container img{
+    margin-top: 40%;
+    height: 40dvh;
+    width: 70dvw;
+}
+.text{
+    text-align: center;
+    font-size: 22px;
+}
+.button{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.Btn{
+    background-color: #c70039;
+    border: 1px solid #c70039;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}

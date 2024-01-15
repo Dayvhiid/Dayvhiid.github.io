@@ -1,0 +1,80 @@
+*{
+  background-color: #181e32;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+body{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header_text{
+    float: right;
+    padding-right: 2%;
+}
+.top_circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background-color: #324dd3;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+.bottom_circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: #fff;
+    display: inline-block;
+    float: right;
+    margin-top: 30vh;
+    margin-right: -60px;
+}
+.welcome{
+    margin-top: 40vh;
+    text-align: center;
+    font-size: 30px;
+}
+.wc{
+    font-size: 45px;
+    font-weight: 900;
+}
+.bc{
+    font-weight: 100;
+}
+.circleOne{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.circleTwo{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.circleThree{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.loading{
+    margin-top: 15%;
+    margin-left: 7%;
+    display: flex;
+}
+.next{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background-color: #f6be97;
+    margin-left: 75%;
+}
+.greaterThan{
+    margin-left: 20px;
+    height: 20px;
+}

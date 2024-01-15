@@ -1,0 +1,435 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+#firstSection{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    background-size: cover;
+  background-color: rgb(21, 21, 21);
+  height: 500px;
+}
+.topHeader{
+    display: flex;
+    color: white;
+}
+.logoSide{
+    display: flex;
+    margin-left: 4%;
+}
+.logo{
+    margin-top: 20%;
+    margin-left: 4%;
+}
+.list {
+    margin-left: 35%;
+    min-width: 30%;
+}
+.list ul li{
+    display: inline-block;
+    margin-left: 5%;
+    color: white;
+}
+.list ul li a{
+    color: white;
+}
+.list ul li a:hover{
+    cursor: pointer;
+    color: #6A5ACD;
+    transition: 0.5s;
+}
+.list ul li:hover{
+    cursor: pointer;
+    color: #6A5ACD;
+    transition: 0.5s;
+}
+.list ul li a {
+    text-decoration: none;
+}
+.list ul li a :hover{
+    cursor: pointer;
+    color: #6A5ACD;
+    transition: 0.5s;
+}
+.subscribe{
+    background: rgb(120, 0, 120);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+}
+.subBtn:hover{
+    padding: 10px;
+    transition: 0.5s;
+}
+.subBtn{
+    margin-left: 15%;
+    margin-top: 1%;
+}
+.mainText{
+    color: white;
+    margin-left: 5%;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.textColumn{
+    color: white;
+}
+.subText{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.searchBar{
+    border: 1px solid white;
+    width: 30vw;
+    height: 35px;
+    margin-left: 5%;
+    border-radius: 5px;
+    background-color: white;
+}
+.searchBar p{
+   color: black;
+}
+.dest{
+    display: flex;
+    margin-top: -3%;
+    margin-left: 5%;
+}
+.search{
+    margin-top: 3.5%;
+    margin-left: 23%;
+}
+.searchBtn{
+    padding: 7px 10px;
+    background-color:rgb(120, 0, 120) ;
+    color: white;
+    border-radius: 5px;
+}
+.rightSide{
+    float: right;
+    margin-right: 15%;
+    margin-top: -25%;
+}
+.homeImage{
+    border: 7px solid #d7d3d331;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   height: 350px;
+   width: 300px;
+}
+.ratings{
+    display: flex;
+    margin-left: -5%;
+}
+.ratings div{
+    margin-left: 10%;
+}
+.num3Text{
+    margin-left: -55%;
+}
+.ratingsText{
+    display: flex;
+    color: white;
+    margin-left: 0%;
+    margin-top: -3%;
+}
+.ratingsText div{
+    margin-left: 5%;
+}
+.ratingsText div h6{
+    font-size: 10px;
+    font-weight: bold;
+}
+.plusIcon{
+    margin-top: 50%;
+}
+.logos {
+    margin-top: 8%;
+    display: flex;
+   
+}
+.logos div{
+    margin-left: 10%;
+}
+.logos img{
+    height: 100px;
+    width: 150px;
+}
+#residences{
+    margin-top: 5%;
+}
+.residenceText{
+    margin-left: 5%;
+}
+.residenceCards{
+    /* margin-left: 5%; */
+    display: flex;
+    justify-content: space-around;
+}
+.card1{
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+}
+.text{
+    line-height: 1rem;
+    margin-left: 5%;
+}
+.card1 img{
+    border-radius: 15px;
+}
+.valuesImage img{
+    border: 7px solid #d7d3d331;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#values{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    color: #27005d;
+}
+.cc{
+    color: #ffaa00;
+    font-size: 20px;
+}
+.boxes div{
+    margin-top: 8%;
+}
+.box1{
+    display: flex;
+    border: 3px solid white;
+    height: 10vh;
+    width: 35dvw;
+    /* box-shadow: 2px 2px 2px 2px hsl(10deg, 0%, 0%) ; */
+    border-radius: 5px;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+}
+.box1 h2{
+    margin-top: 3%;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    /* word-break: break-all; */
+    /* word-wrap: none; */
+    white-space: nowrap;
+    /* text-overflow: ellipsis; */
+}
+#contactUs{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    color: #27005d;
+}
+.contactText{
+
+}
+.contactImage{
+    border: 7px solid #d7d3d331;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.contactCards{
+    display: flex;
+}
+.contactCards div{
+    margin-left: 5%;
+}
+.ccard1{
+    border: 2px solid white;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 15px;
+    text-align: center;
+}
+.callBtn{
+    background-color: #e6e6fa;
+    padding: 10px 20px;
+    color: #27005d;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.phoneIcon{
+    margin-right: 5%;
+    background-color: #e6e6fa;
+    border-radius: 20%;
+    height: 30px;
+    width: 30px;
+}
+.getStarted{
+    margin-top: 3%;
+    color: white;
+    border: 10px solid #e6e6fa;
+    border-radius: 25px;
+    background-color: #6A5ACD;
+    width: 70%;
+    height: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+.dollars{
+    color: #ffaa00;
+    margin-right: 1%;
+}
+.menu{
+    display: none;
+}
+.menuItems{
+    display: none;
+}
+/* media queries */
+/* mobile devices */
+
+@media only screen and (max-width:420px){
+    body{
+        overflow-x: hidden;
+    }
+    #firstSection{
+        height: 550px;
+        position: relative;
+    }
+    .menu{
+        display: inline-flex;
+        height: 30px;
+        width: 30px;
+        margin-left: 65dvw;
+        margin-top: 2dvh;
+    }
+    .menuItems{
+        display: block;
+        height: 5dvh;
+        width: 85dvw;
+        background-color: #27005d;
+        margin-left: -86%;
+        margin-top: 7dvh;
+        color: white;
+        border-radius: 5px;
+        
+    }
+    .MobileList{
+          margin-bottom: 20%;
+    }
+    .mobileList ul li{
+        display: inline-block;
+        list-style: none;
+        margin-left: 5%;
+        font-size: 16px;
+        white-space: nowrap;
+    }
+    .mobileList ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .menuIcon{
+        float: right;
+    }
+    .searchBar{
+        width: 80dvw;
+    }
+    .subBtn{
+        display: none;
+    }
+    .list{
+        display: none;
+    }
+    .searchBar p {
+        white-space: nowrap;
+    }
+    .ratings{
+        font-size: large;
+        display: flex;
+        justify-content: space-around;
+    }
+    .searchBtn{
+        margin-left: -58%;
+    }
+    .settlers{
+        margin-left: 60%;
+    }
+    .rightSide{
+        display: none;
+    }
+    .logos{
+        /* margin-left: 0%; */
+    }
+    .logos div{
+        height: 50px;
+        width: 140px;
+    }
+    #residences{
+        margin-top: 20%;
+    }
+    .residenceCards{
+        display: block;
+    }
+    .card1{
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .valuesImage{
+        display: none;
+    }
+    .box1{
+        border: none;
+    }
+    .contactImage{
+        display: none;
+    }
+    .contactCards div{
+        margin-left: -2%;
+    }
+    .ccard1{
+        width: 25dvh;
+    }
+    .contactCards{
+        justify-content: space-around;
+    }
+    #contactUs{
+        display: block;
+        margin-left: 5%;
+    }
+    .getStarted{
+        margin-top: 15%;
+    }
+   
+}
+@media only screen and (max-width:820px){
+    body{
+        overflow-x: hidden;
+    }
+    .homeImage{
+        display: none;
+    }
+    .logo4{
+        display: none;
+    }
+    .box1{
+        width: 50dvw;
+    }
+    #contactUs{
+        display: block;
+    }
+}

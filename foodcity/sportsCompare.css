@@ -1,0 +1,58 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f5f5;
+}
+.container{
+    height: 100%;
+}
+.MainText{
+    text-align: center;
+    color: blueviolet;
+}
+.boxes{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.firstBox{
+    border: 2px solid purple;
+    height: 30dvh;
+    width: 30dvw;
+    border-radius: 10px;
+}
+.stepOne{
+    background-color: #E40066;
+}
+.secondBox{
+    border: 2px solid purple;
+    height: 30dvh;
+    width: 30dvw;
+    border-radius: 10px;
+}
+.instructions{
+    display: flex;
+    justify-content: center;
+}
+.stepOne{
+    height: 10dvh;
+}
+.stepTwo{
+    height: 10dvh;
+}
+.input{
+    border: 1px solid blueviolet;
+    padding: 5px 5px;
+    border-radius: 5px;
+    outline: none;
+}
+.inputDiv{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+.inputTwo{
+    border: 1px solid blueviolet;
+    padding: 5px 5px;
+    border-radius: 5px;
+    outline: none;
+}
