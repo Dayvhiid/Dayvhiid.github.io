@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div class="question">
+            <h2 id="quest">The question will be displayed here</h2>
+        </div>
+
+        <div class="options">
+           <div class="optionOne">
+            <input type="radio" name="option" value="0" id="Q1"><p id="q1">Option 1</p>
+           </div><br>
+           <div class="optionTwo">
+            <input type="radio" name="option" value="1" id="Q2"><p id="q2">Option 2</p>
+           </div><br>
+           <div class="optionThree">
+            <input type="radio" name="option" value="2" id="Q3"><p id="q3">Option 3</p>
+           </div><br>
+           <div class="optionFour">
+            <input type="radio" name="option" value="3" id="Q4"><p id="q4">Option 4</p>
+           </div>
+        </div>
+
+        <div class="controls">
+            <button id="btn" onclick="start()">Start</button>
+            <button id="next_btn" onclick="next()">Next</button>
+            <button id="prev_btn" onclick="prev()">Previous</button>
+            <button id="submit_btn" onclick="submit()">Submit</button>
+            <button id="review_btn" onclick="review()">Review</button><br>
+        </div>
+
+       
+            <label id="myLabel"></label>
+      
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

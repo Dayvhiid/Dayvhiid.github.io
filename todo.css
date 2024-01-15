@@ -1,0 +1,37 @@
+body {
+    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+input {
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid beige;
+    outline: none;
+}
+
+button {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    color: white;
+}
+
+#listItems {
+    background-color: grey;
+    text-align: center;
+}
+
+p {
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 5px;
+    word-wrap: break-word;
+}

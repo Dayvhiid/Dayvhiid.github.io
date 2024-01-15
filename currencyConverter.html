@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="currencyConverter.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="currencies">
+            <div class="dollars">
+                <label>USD:</label>
+                <input type="text" id="dollarInp" size="20">
+                <button id="dollarConvert" onclick="dollarConvert()">CONVERT</button>
+            </div>
+            <div class="euros">
+                <label>EUR:</label>
+                <input type="text" id="euroInp" size="20">
+                <button id="euroConvert" onclick="euroConvert()">CONVERT</button>
+            </div>
+            <div class="naira">
+                <label>NGN:</label>
+                <input type="text" id="nairaInp" size="20">
+                <button id="nairaConvert" onclick="nairaConvert()">CONVERT</button>
+            </div>
+            <div class="Pounds">
+                <label>GBP:</label>
+                <input type="text" id="poundInp" size="20">
+                <button id="poundConvert" onclick="poundsConvert()">CONVERT</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function dollarConvert() {
+            let dollars = document.getElementById("dollarInp")
+            dollars = dollars.value
+
+            let naira = document.getElementById("nairaInp")
+            let nairaValue = dollars * 777.50
+            nairaValue = nairaValue.toLocaleString("en-NG", {
+                style: "currency",
+                currency: "NGN"
+            })
+            naira.value = nairaValue
+
+            // TO EURO
+            let euro = document.getElementById("euroInp")
+            let euroValue = dollars * 0.89
+            euroValue = euroValue.toLocaleString("en-DE", {
+                style: "currency",
+                currency: "EUR"
+            })
+            euro.value = euroValue
+
+            //TO pounds
+            let pounds = document.getElementById("poundInp")
+            let poundsValue = dollars * 0.76
+            poundsValue = poundsValue.toLocaleString("en-GB", {
+                style: "currency",
+                currency: "GBP"
+            })
+            pounds.value = poundsValue
+        }
+
+        function euroConvert() {
+            //TO DOLLARS
+            let euro = document.getElementById("euroInp")
+            euro = euro.value
+            let dollars = document.getElementById("dollarInp")
+            dollarValue = euro * 1.12
+            dollarValue = dollarValue.toLocaleString("en-US", {
+                style: "currency",
+                currency: "USD"
+            })
+            dollars.value = dollarValue;
+            //TO NAIRA
+            let naira = document.getElementById("nairaInp")
+            nairaValue = euro * 872.76
+            nairaValue = nairaValue.toLocaleString("en-NG", {
+                style: "currency",
+                currency: "NGN"
+            })
+            naira.value = nairaValue
+                //TO POUNDS
+            let pounds = document.getElementById("poundInp")
+            poundsValue = euro * 0.86
+            poundsValue = poundsValue.toLocaleString("en-GB", {
+                style: "currency",
+                currency: "GBP"
+            })
+            pounds.value = poundsValue
+        }
+
+        function nairaConvert() {
+            //CONVERTING TO DOLLARS
+            let naira = document.getElementById("nairaInp")
+            naira = naira.value
+            let dollars = document.getElementById("dollarInp")
+            dollarValue = naira * 0.0013
+            dollarValue = dollarValue.toLocaleString("en-US", {
+                style: "currency",
+                currency: "USD"
+            })
+            dollars.value = dollarValue
+
+
+            //CONVERTING TO EURO
+            let euro = document.getElementById("euroInp")
+            euroValue = naira * 0.0011
+            euroValue = euroValue.toLocaleString("en-DE", {
+                style: "currency",
+                currency: "EUR"
+            })
+            euro.value = euroValue
+
+            //CONVERTING TO POUNDS
+
+            let pounds = document.getElementById("poundInp")
+            poundsValue = naira * 0.0011
+            poundsValue = poundsValue.toLocaleString("en-GB", {
+                style: "currency",
+                currency: "GBP"
+            })
+            pounds.value = poundsValue
+        }
+
+        function poundsConvert() {
+            let pounds = document.getElementById("poundInp")
+            pounds = pounds.value
+
+            // TO DOLLARS
+            let dollars = document.getElementById("dollarInp")
+            dollarValue = pounds * 1.31;
+            dollarValue = dollarValue.toLocaleString("en-US", {
+                style: "currency",
+                currency: "USD"
+            })
+            dollars.value = dollarValue
+
+            // TO EURO
+            let euro = document.getElementById("euroInp")
+            euroValue = pounds * 1.17
+            euroValue = euroValue.toLocaleString("en-DE", {
+                style: "currency",
+                currency: "EUR"
+            })
+            euro.value = euroValue
+                //TO NAIRA
+            let naira = document.getElementById("nairaInp")
+            nairaValue = pounds * 1017.83
+            nairaValue = nairaValue.toLocaleString("en-NG", {
+                style: "currency",
+                currency: "NGN"
+            })
+            naira.value = nairaValue
+
+
+        }
+    </script>
+
+</body>
+
+</html>

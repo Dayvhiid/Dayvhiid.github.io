@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="controls">
+            <input type="text" id="inputType" placeholder="Enter Your Task Item">
+            <button id="addButton">ADD TASK</button>
+            <br>
+            <div id="listItems">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    let button = document.getElementById("addButton")
+    button.addEventListener("click", function() {
+        let task = document.getElementById("inputType")
+        task = task.value
+        const text = document.createElement("p")
+        text.innerHTML = task;
+        document.getElementById("listItems").appendChild(text)
+        text.addEventListener("click", function() {
+            text.style.textDecoration = "line-through"
+        })
+        text.addEventListener("dblclick", function() {
+            document.getElementById("listItems").removeChild(text)
+        })
+        text = ""
+    })
+</script>
+
+</html>

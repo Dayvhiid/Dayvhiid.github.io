@@ -1,0 +1,88 @@
+*{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: powderblue;
+}
+.container{
+    background-color: white;
+    height: 60vh;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.question{
+    text-align: center;
+    font-size: 16px;
+}
+.options{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.optionOne{
+    /* display: inline-flex; */
+}
+.optionOne{
+    display: inline-flex;
+}
+.optionTwo{
+    display: inline-flex;
+}
+.optionThree{
+    display: inline-flex;
+}
+.optionFour{
+    display: inline-flex;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    background-color: blueviolet;
+    padding: 10px 10px;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+}
+#next_btn{
+    background-color: blueviolet;
+    padding: 10px 10px;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+   
+}
+#prev_btn{
+    background-color: blueviolet;
+    padding: 10px 10px;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px; 
+}
+#submit_btn{
+    background-color: blueviolet;
+    padding: 10px 10px;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;  
+}
+#myLabel{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 2%;
+}
+#review_btn{
+    background-color: blueviolet;
+    padding: 10px 10px;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;  
+}

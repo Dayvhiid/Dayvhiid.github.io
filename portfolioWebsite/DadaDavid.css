@@ -1,0 +1,294 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    padding: 0;
+    border: 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    line-height: 15%;
+    margin-left: 5%;
+}
+
+.surname {
+    font-size: 2.5rem;
+    color: brown;
+    font-weight: -100;
+}
+
+.firstname {
+    font-size: 2.5rem;
+    color: brown;
+    font-weight: 900;
+}
+
+.topbar {
+    width: 90%;
+    height: 2%;
+    background-color: grey;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Number {
+    display: flex;
+}
+
+.Mail {
+    display: flex;
+    margin-left: -25%;
+}
+
+.Location {
+    display: flex;
+}
+
+.phoneimg {
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+.mailimg {
+    margin-top: 10%;
+}
+
+.locimg {
+    margin-top: 8%;
+    margin-left: 15%;
+}
+
+.work {
+    margin-left: 8%;
+    margin-top: 3%;
+    color: grey;
+}
+
+.workbar {
+    margin-left: 5%;
+}
+
+.workdiv {
+    width: 10%;
+    height: 1%;
+    background-color: brown;
+    position: absolute;
+}
+
+.workline {
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -0%;
+}
+
+.experiencesection {
+    margin-left: 7%;
+    margin-top: 2.5%;
+}
+
+.frontend {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.frontend2 {
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.education {
+    color: grey;
+    margin-left: 7%;
+    font-size: 1.4rem;
+}
+
+.educationbar {
+    margin-left: 5%;
+    margin-top: -1%;
+}
+
+.educationdiv {
+    width: 10%;
+    height: 1%;
+    background-color: brown;
+    position: absolute;
+}
+
+.educationline {
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -0%;
+}
+
+.educationtext {
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.degree {
+    font-weight: bold;
+}
+
+.skills {
+    color: grey;
+    margin-left: 7%;
+    font-size: 1.4rem;
+}
+
+.skillsbar {
+    margin-left: 5%;
+    margin-top: -1%;
+}
+
+.skillsdiv {
+    width: 10%;
+    height: 1%;
+    background-color: brown;
+    position: absolute;
+}
+
+.skillsline {
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -0%;
+}
+
+.skillscontent {
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.programming {
+    font-weight: bold;
+}
+
+.htmlskillbar {
+    background-color: brown;
+    width: 25vw;
+    height: 2vh;
+    /* position: relative; */
+}
+
+.proficiency {
+    display: flex;
+}
+
+.cssproficiency {
+    margin-left: 5%;
+}
+
+.cssskillbar {
+    background-color: brown;
+    width: 25vw;
+    height: 2vh;
+}
+
+.tailwindproficiency {
+    margin-left: 5%;
+}
+
+.tailwindskillbar {
+    background-color: brown;
+    width: 25vw;
+    height: 2vh;
+}
+
+.proficiency2 {
+    display: flex;
+}
+
+.javascriptskillbar {
+    background-color: brown;
+    width: 25vw;
+    height: 2vh;
+}
+
+.reactproficiency {
+    margin-left: 5%;
+}
+
+.reactskillbar {
+    background-color: brown;
+    width: 25vw;
+    height: 2vh;
+}
+
+.coursecover {
+    margin-top: 3%;
+}
+
+.courses {
+    color: grey;
+}
+
+.coursesbar {
+    margin-left: 0%;
+    margin-top: -1%;
+}
+
+.coursesdiv {
+    width: 10%;
+    height: 1%;
+    background-color: brown;
+    position: absolute;
+}
+
+.coursesline {
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -0%;
+}
+
+.certifications {
+    margin-top: 3%;
+}
+
+.HTMLcert {
+    font-weight: bold;
+}
+
+.Javascriptcert {
+    font-weight: bold;
+}
+
+.footer {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body {}
+    .biodata {
+        display: none;
+    }
+    .work {
+        margin-top: 5%;
+    }
+    .frontend {
+        margin-top: 7%;
+    }
+    .educationtext {
+        margin-top: 10%;
+    }
+    .skillscontent {
+        margin-top: 10%;
+    }
+    .HTMLcert {
+        margin-top: 10%;
+    }
+    .footer {
+        display: block;
+    }
+}
