@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="trying.php" method="post">
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td>
+                    <input type="text"   placeholder="name"  name="usename" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" placeholder="password" name="password" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="m" required>Male
+                    <input type="radio" name="gender" value="f" required>Female
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="mail" placeholder="Email" name="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Phone No:</td>
+                <td>
+                    <select name="phone">
+                        <option selected hidden value="">Select Code</option>
+                        <option value="234">+234</option>
+                        <option value="245">+245</option>
+                        <option value="128">+128</option>
+                        <option value="748">+748</option>
+                    </select>
+                    <input type="Phone" placeholder="" name="Phone" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Submit" value="Submit" name="">
+                </td>
+            </tr>
+    </table>
+    </form>
+</body>
+</html>

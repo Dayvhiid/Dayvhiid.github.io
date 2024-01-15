@@ -1,0 +1,472 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    border: 0;
+}
+
+.navbar {
+    display: flex;
+    height: 10vh;
+}
+
+.icons {
+    display: flex;
+    margin-left: 55%;
+    margin-top: 7%;
+}
+
+.menu {
+    display: inline-block;
+    /* margin-left: 5%; */
+}
+
+.searchicon {
+    margin-left: -150%;
+}
+
+.scrollsection1 {
+    background-image: url(benjamin-davies-Zm2n2O7Fph4-unsplash.jpg);
+    height: 65vh;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.text1 {
+    margin-top: -100%;
+    margin-left: 5%;
+}
+
+.maintext {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    line-height: 90%;
+    font-weight: bold;
+}
+
+.text2 {
+    /* margin-top: -60%; */
+}
+
+.mainsubtext {
+    font-size: 1.2rem;
+    color: white;
+    padding-top: 25%;
+}
+
+.aboutBtn {
+    margin-top: 10%;
+    background-color: transparent;
+    color: white;
+    padding: 10px 30px;
+    border: 3px solid white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.aboutBtn:hover {
+    background-color: white;
+    color: green;
+}
+
+.scrollsection2 {
+    margin-top: 45%;
+    background-image: url(patrick-langwallner-oMfEoKHEEAg-unsplash.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 42vh;
+    margin-left: 3%;
+    border-radius: 5px;
+}
+
+.text2 {
+    margin-top: -100%;
+    text-shadow: 2%;
+    color: white;
+    margin-left: 7%;
+}
+
+.marketmaintext {
+    font-size: 2.4rem;
+    color: #F6F6F6;
+    font-weight: bold;
+}
+
+.marketsubtext {
+    font-size: 1.2rem;
+    color: #F6F6F6;
+}
+
+.operateBtn {
+    margin-top: 8%;
+    background-color: transparent;
+    color: white;
+    padding: 10px 30px;
+    border: 3px solid white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.operateBtn:hover {
+    background-color: white;
+    color: green;
+}
+
+.scrollsection3 {
+    background-image: url(jonas-stolle-teMHtHNnkAQ-unsplash.jpg);
+    margin-top: 45%;
+    background-size: cover;
+    height: 80vh;
+    width: 42vh;
+    margin-left: 3%;
+    border-radius: 5px;
+}
+
+.text3 {
+    margin-top: -120%;
+    text-shadow: 2%;
+    color: white;
+    margin-left: 7%;
+}
+
+.commsmaintext {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.commssubtext {
+    font-size: 1.5rem;
+}
+
+.commsBtn {
+    margin-top: 5%;
+    background-color: transparent;
+    color: white;
+    padding: 10px 30px;
+    border: 3px solid white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.commsBtn:hover {
+    background-color: white;
+    color: green;
+}
+
+.scrollsection4 {
+    margin-top: 30vh;
+    background-image: url(jonathan-klok-NeRzxya_zyI-unsplash.jpg);
+    height: 80vh;
+    background-size: cover;
+}
+
+.text4 {
+    margin-top: -100%;
+    color: white;
+    margin-left: 5%;
+}
+
+.sustainabilityMaintext {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.sustainabilitySubtext {
+    padding-top: 5%;
+    font-size: 1.2rem;
+}
+
+.sustainabilityBtn {
+    margin-top: 5%;
+    background-color: transparent;
+    color: white;
+    padding: 10px 30px;
+    border: 3px solid white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.sustainabilityBtn:hover {
+    background-color: white;
+    color: green;
+}
+
+.scrollsection5 {
+    margin-top: 25vh;
+    background-image: url(brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.text5 {
+    margin-top: -100%;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.careerBtn {
+    margin-top: 5%;
+    background-color: transparent;
+    color: white;
+    padding: 10px 30px;
+    border: 3px solid white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.careerBtn:hover {
+    background-color: white;
+    color: green;
+}
+
+.info {
+    margin-top: 80%;
+    height: 80%;
+    position: absolute;
+}
+
+.customersmaintext {
+    font-size: 1.5rem;
+    color: darkgreen;
+}
+
+.info {
+    list-style: none;
+    width: auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+.customerItems {
+    line-height: 0.8cm;
+}
+
+.col-1 {
+    display: flex;
+    width: auto;
+    margin-left: 5%;
+}
+
+.suppliers {
+    display: inline-flex;
+    /* justify-content: space-between; */
+    /* margin-right: -80%; */
+    /* width: 50%; */
+}
+
+.supplymaintext {
+    font-size: 1.5rem;
+    color: darkgreen;
+    margin-left: 30%;
+}
+
+.supplylist {
+    white-space: nowrap;
+    margin-top: 15%;
+    margin-left: -45%;
+    line-height: 0.8cm;
+}
+
+.col-2 {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.investormaintext {
+    color: darkgreen;
+    font-size: 1.5rem;
+}
+
+.investorList {
+    line-height: 0.8cm;
+}
+
+.Career {
+    display: inline-flex;
+}
+
+.Careermaintext {
+    color: darkgreen;
+    font-size: 1.5rem;
+    margin-left: 37%;
+}
+
+.CareerList {
+    margin-top: 18%;
+    white-space: nowrap;
+    margin-left: -45%;
+    line-height: 0.8cm;
+}
+
+.footer {
+    width: 45vh;
+    position: absolute;
+    height: 35%;
+    background-color: rgb(0, 54, 0);
+    /* margin-top: -100%; */
+}
+
+.content {
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.2cm;
+}
+
+.list {
+    display: none;
+}
+
+.line {
+    display: none;
+}
+
+@media (min-width: 820px) and (max-width:1280px) {
+    body {
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .navbar {
+        height: 14dvh;
+    }
+    .icons {
+        display: none;
+    }
+    .scrollsection5 {
+        display: none;
+    }
+    .scrollsection4 {
+        /* display: none; */
+        position: relative;
+        margin-top: 4%;
+        height: 90dvh;
+    }
+    .scrollsection3 {
+        /* display: none; */
+        width: 47%;
+        height: 100dvh;
+    }
+    .scrollsection2 {
+        /* display: none; */
+        width: 45%;
+        height: 100dvh;
+    }
+    .scrollsection1 {
+        background-position: center;
+        height: 95dvh;
+    }
+    .list {
+        display: flex;
+    }
+    .list ul {
+        margin-left: 80vh;
+        margin-top: 3%;
+    }
+    .list ul li {
+        margin-left: 5vh;
+        display: inline-block;
+        font-size: 20px;
+        color: green;
+    }
+    .text1 {
+        position: absolute;
+        color: red;
+        margin-top: -23%;
+    }
+    .maintext {
+        margin-top: -20%;
+        font-size: 2.9rem;
+        font-weight: bolder;
+        flex-wrap: nowrap;
+        width: 100vh;
+    }
+    .scrollsection2and3 {
+        display: flex;
+        margin-top: -42%;
+    }
+    .text2 {
+        display: block;
+        position: absolute;
+        margin-top: 70%;
+    }
+    .text3 {
+        display: block;
+        position: absolute;
+        margin-top: 68%;
+        margin-left: 55%;
+    }
+    .text4 {
+        display: block;
+        position: absolute;
+        margin-top: -25%;
+    }
+    .sustainabilityMaintext {
+        font-size: 3rem;
+    }
+    .sustainabilitySubtext {
+        font-size: 1.5rem;
+    }
+    .text5 {
+        display: none;
+    }
+    .info {
+        margin-left: 5%;
+        display: flex;
+        margin-top: 2%;
+    }
+    .col-1 {
+        display: inline-flex;
+    }
+    .customers {
+        margin-left: 5%;
+    }
+    .suppliers {
+        margin-left: 15%;
+    }
+    .investors {
+        margin-left: 35%;
+    }
+    .Career {
+        margin-left: 25%;
+    }
+    .col-2 {
+        display: inline-flex;
+        margin-top: 0%;
+    }
+    .line {
+        display: block;
+        margin-top: 2%;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        height: 2px;
+        background-color: green;
+    }
+    .footer {
+        /* display: none; */
+        margin-top: 30%;
+        width: 99dvw;
+        margin-left: -8.8%;
+        display: flex;
+    }
+    .content {
+        display: inline-flex;
+        width: 100%;
+    }
+    .footer .content p {
+        margin-left: 10%;
+    }
+}
